@@ -1,6 +1,4 @@
 """"У цьому коді ми створюємо клас Robot."""""
-
-
 class Robot:
     """"def __init__(self, name): - оголошення конструктора класу Robot. 
     Конструктор приймає аргумент name"""""
@@ -14,8 +12,6 @@ class Robot:
 
 
 """"def pair_robots(names): - оголошення функції pair_robots, яка приймає аргумент names"""
-
-
 def pair_robots(robots: list) -> tuple:
     """"if len(names) != 2: - перевірка, чи має список names довжину не більше 2."""""
     if len(robots) != 2:
