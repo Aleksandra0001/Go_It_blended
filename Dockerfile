@@ -11,7 +11,7 @@ COPY . .
 # EXPOSE 8000
 
 # Команда, яка запускає вашу програму
-CMD [ "python", "3.1_task.py" ]
+CMD [ "python", "main.py" ]
 
 # Команда, яка запускає вашу програму з аргументами
 #docker stop my_zoo_app

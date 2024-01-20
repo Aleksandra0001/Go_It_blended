@@ -50,5 +50,6 @@ def create_animals():
         print(f"{animal.name} says {animal.make_sound()}")
 
 
-if __name__ == '__main__':
+def main():
+    """"Цей рядок викликає функцію create_animals."""""
     create_animals()

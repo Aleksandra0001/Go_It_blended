@@ -84,5 +84,5 @@ def create_animals():
     animal_schedule.display_schedule()
 
 
-if __name__ == '__main__':
+def main():
     create_animals()
