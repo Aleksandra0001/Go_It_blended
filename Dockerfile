@@ -13,6 +13,5 @@ COPY . .
 # Команда, яка запускає вашу програму
 CMD [ "python", "main.py" ]
 
-# Команда, яка запускає вашу програму з аргументами
-#docker stop my_zoo_app
-#docker run -it --name my_zoo_app zoo_system
+#docker build -t my-python-app .
+#docker run -it --name my-running-app
