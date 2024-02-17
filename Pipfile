@@ -5,6 +5,9 @@ name = "pypi"
 
 [packages]
 aiohttp = "*"
+peewee = "*"
+python-dotenv = "*"
+faker = "*"
 
 [dev-packages]
 
